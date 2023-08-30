@@ -1,8 +1,8 @@
 import Box from "./Box";
 import Container from "./Container";
 import Stack from "./Stack";
-// import InputWrapper from "./Input";
+import InputWrapper from "./Input";
+import Skeleton from "./Skeleton";
 // import Button from "./Button";
-// import Skeleton from "./Skeleton";
 
-export { Box, Container, Stack };
+export { Box, Container, Stack, InputWrapper, Skeleton };
