@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import { Box, Container } from "../components/styled";
+import { Box, Container, Stack } from "../components/styled";
 
 
 
@@ -9,14 +9,41 @@ const HomePage = () => {
     <Layout>
       <Container size="xl" m="48px">
         <h1>Home</h1>
-        <Box
-          width="400px"
-          height="239px"
-          border="1px solid"
-          borderColor="red"
-          borderRadius="16px"
-          bg="green"
-        ></Box>
+        <Stack spacing="50px" /**direction="column"*/>
+
+          <Box
+            width="100px"
+            height="100px"
+            border="1px solid"
+            borderColor="red"
+            borderRadius="16px"
+            bg="green"
+          ></Box>
+          <Box
+            width="100px"
+            height="100px"
+            border="1px solid"
+            borderColor="red"
+            borderRadius="16px"
+            bg="green"
+          ></Box>
+          <Box
+            width="100px"
+            height="100px"
+            border="1px solid"
+            borderColor="red"
+            borderRadius="16px"
+            bg="green"
+          ></Box>
+          <Box
+            width="100px"
+            height="100px"
+            border="1px solid"
+            borderColor="red"
+            borderRadius="16px"
+            bg="green"
+          ></Box>
+        </Stack>
       </Container>
     </Layout >
   );
