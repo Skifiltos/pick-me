@@ -21,7 +21,7 @@ import {
 
 const InputWrapper = styled("input")(
     {
-        background: "var(--gray-900)",
+        background: "var(--grey-900)",
         border: "1px solid",
         borderColor: "--gray-600",
         color: "var(--gray-600)",

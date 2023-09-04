@@ -57,7 +57,8 @@ const SkeletonBox = styled(WaveBox)(
 );
 
 SkeletonBox.defaultProps = {
-    backgroundColor: "#222222"
+    backgroundColor: "white"
+    // backgroundColor: "var(--grey-900)"
 }
 
 const Skeleton = ({ variant = "rect", ...rest }) => {
