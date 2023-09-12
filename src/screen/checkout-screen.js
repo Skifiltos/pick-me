@@ -14,6 +14,8 @@ import * as Yup from "yup";
 
 // IL FORM FINALE E' IN FONDO AL FILE COMMENTATO !
 
+
+
 const CheckoutScreen = () => {
   return (
     <Layout>
@@ -347,4 +349,4 @@ const CheckoutScreen = () => {
 //    )}
 //  </Formik>;
 
-export default CheckoutScreen;
+export default CheckoutScreen; 

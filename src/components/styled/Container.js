@@ -40,11 +40,11 @@ const Container = styled("div")(
     compose(space, layout, background, border, position)
 );
 
-// Container.defaultProps = {
-//     ml: "auto",
-//     mr: "auto",
-//     size: "xl"
-// }
+Container.defaultProps = {
+    ml: "auto",
+    mr: "auto",
+    size: "xl"
+}
 
 
 export default Container

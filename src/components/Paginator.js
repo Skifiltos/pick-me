@@ -5,8 +5,10 @@ import { ReactComponent as RightIcon } from "../images/small-right-arrow.svg";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
+
+
 const Paginator = () => {
   return <>Paginator</>;
 };
 
-export default Paginator;
+export default Paginator; 

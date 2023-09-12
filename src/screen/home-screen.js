@@ -8,8 +8,10 @@ const HomePage = () => {
   return (
     <Layout>
       <Container size="xl" m="48px">
-        <h1>Home</h1>
-        <Stack spacing="50px" /**direction="column"*/>
+        <Stack ml="50px">
+          <h1>Home</h1>
+        </Stack>
+        <Stack spacing="50px" ml="50px" /**direction="column"*/>
 
           <Box
             width="100px"
@@ -44,9 +46,11 @@ const HomePage = () => {
             bg="green"
           ></Box>
         </Stack>
-        <Box my="96px">
+
+        <Box my="96px" mx="50px">
           <InputWrapper placeholder="text" />
         </Box>
+
         <Skeleton
           width="300px"
           height="300px"

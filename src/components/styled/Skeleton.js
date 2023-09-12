@@ -4,7 +4,8 @@ import styled, { keyframes } from "styled-components";
 import { variant } from "styled-system";
 
 
-const WaveKeyFrames = keyframes`
+
+const WaveKeyFrames = keyframes` 
 0% {
     transform: translateX(-100%);
     
@@ -26,31 +27,47 @@ const WaveBox = styled(Box)`
 `;
 
 const SkeletonBox = styled(WaveBox)(
-    variant({
-        variants: {
-            circle: {
-                borderRadius: "50%"
+    variant(
+        {
+            variants:
+            {
+                circle:
+                {
+                    borderRadius: "50%"
+                },
+                rect: {},
             },
-            rect: {},
-        },
-    }),
+        }),
     {
         position: "relative",
         overflow: "hidden",
+
         /** PSEUDO SELECTOR */
-        "::after": {
+
+        "::after":
+        {
+
+
             background:
                 "linear-gradient(90deg, transparent, rgba(0,0,0,0.4), transparent)",
+
             /** PER EVITARE DI RENDERE IL CONTENUTO VUOTO
              * TRA LE VIRGOLETTE METTIAMO LE ALTRE VIRGOLETTE,
              * IN PRATICA PASSIAMO UNA STRINGA VUOTA
              */
+
             content: "''",
+
             position: "absolute",
+
             transform: "translateX(-100%)",
+
             bottom: "0",
+
             left: "0",
+
             right: "0",
+
             top: "0"
         },
     }
